@@ -1,0 +1,170 @@
+{
+    "title": "WordNet Similarity APIs",
+    "description": "Calculate word similarity.<BR />[Endpoint] https://api.apitore.com/api/47",
+    "docsUrl": "",
+    "url": "https://api.apis.guru/v2/specs/apitore.com/wordnetSimilarityApis/0.0.1/swagger.json",
+    "envVars": {},
+    "credentials": {
+        "fields": {
+            "server": {
+                "label": "Server",
+                "viewClass": "SelectView",
+                "model": [
+                    "https://api.apitore.com/api/47",
+                    "--- Custom URL"
+                ],
+                "required": true
+            },
+            "otherServer": {
+                "label": "Custom Server URL",
+                "viewClass": "TextFieldView"
+            }
+        }
+    },
+    "triggers": {
+        "startFlow": {
+            "main": "./lib/triggers/startFlow.js",
+            "type": "polling",
+            "title": "Start Flow",
+            "fields": {}
+        }
+    },
+    "actions": {
+        "hirststongeUsingGET": {
+            "main": "./lib/actions/hirststongeUsingGET.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_1": {
+            "main": "./lib/actions/hirststongeUsingGET_1.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_1.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_2": {
+            "main": "./lib/actions/hirststongeUsingGET_2.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_2.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_3": {
+            "main": "./lib/actions/hirststongeUsingGET_3.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_3.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_4": {
+            "main": "./lib/actions/hirststongeUsingGET_4.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_4.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_5": {
+            "main": "./lib/actions/hirststongeUsingGET_5.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_5.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_6": {
+            "main": "./lib/actions/hirststongeUsingGET_6.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_6.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "hirststongeUsingGET_7": {
+            "main": "./lib/actions/hirststongeUsingGET_7.js",
+            "title": "WordNet Similarity WebAPI.",
+            "description": "WordNet similarity.<BR />Response<BR />&nbsp; Github: <a href=\"https://github.com/keigohtr/apitore-response-parent/tree/master/wordnet-response\">wordnet-response</a><BR />",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/hirststongeUsingGET_7.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}

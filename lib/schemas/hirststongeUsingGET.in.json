@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "access_token": {
+            "required": true,
+            "type": "string"
+        },
+        "word1": {
+            "required": true,
+            "type": "string"
+        },
+        "pos1": {
+            "required": false,
+            "type": "string"
+        },
+        "word2": {
+            "required": true,
+            "type": "string"
+        },
+        "pos2": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}
